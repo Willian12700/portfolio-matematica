@@ -25,11 +25,11 @@
         <div class="profile-info">
           <div class="badge-cluster">
             <span class="subject-tag">Matemática • Ensino Médio</span>
-            <span class="bimester-spotlight-tag">Foco: 4º Bimestre</span>
+            <span class="bimester-spotlight-tag">2º e 4º Bimestres</span>
           </div>
           <h1 id="user-name">Portfólio de Matemática</h1>
           <p class="hero-desc">
-            Registro e documentação pedagógica das atividades de sala, resoluções no quadro, exercícios do caderno e pesquisa sobre o ciclo trigonométrico e suas aplicações.
+            Registro e documentação pedagógica das atividades de sala, resoluções no quadro, exercícios do caderno, matemática financeira, ciclo e funções trigonométricas.
           </p>
           <div class="meta-tags">
             <div class="meta-item">
@@ -99,28 +99,28 @@
       <div class="stat-card">
         <div class="stat-icon icon-blue">📋</div>
         <div class="stat-content">
-          <span class="stat-value" id="stat-total">5</span>
-          <span class="stat-label">Atividades do 4º Bimestre</span>
+          <span class="stat-value" id="stat-total">13</span>
+          <span class="stat-label">Atividades Registradas</span>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-icon icon-purple">🎯</div>
         <div class="stat-content">
-          <span class="stat-value">100%</span>
-          <span class="stat-label">Ciclo Trigonométrico & Funções</span>
+          <span class="stat-value">2º e 4º</span>
+          <span class="stat-label">Bimestres Completos</span>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-icon icon-emerald">🔗</div>
         <div class="stat-content">
-          <span class="stat-value" id="stat-links">1</span>
-          <span class="stat-label">Pesquisa com Link Online</span>
+          <span class="stat-value" id="stat-links">4</span>
+          <span class="stat-label">Trabalhos & Links Online</span>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-icon icon-amber">📸</div>
         <div class="stat-content">
-          <span class="stat-value" id="stat-photos">5</span>
+          <span class="stat-value" id="stat-photos">13</span>
           <span class="stat-label">Fotos & Resoluções</span>
         </div>
       </div>
@@ -131,7 +131,7 @@
   <main class="container main-content">
     <section class="filters-container">
       <div class="bimester-tabs" role="tablist">
-        <button class="tab-btn" data-bimester="all" role="tab" aria-selected="false">
+        <button class="tab-btn active" data-bimester="all" role="tab" aria-selected="true">
           Todos os Bimestres
         </button>
         <button class="tab-btn" data-bimester="1" role="tab" aria-selected="false">
@@ -143,8 +143,8 @@
         <button class="tab-btn" data-bimester="3" role="tab" aria-selected="false">
           3º Bimestre
         </button>
-        <button class="tab-btn active" data-bimester="4" role="tab" aria-selected="true">
-          4º Bimestre (Atual)
+        <button class="tab-btn" data-bimester="4" role="tab" aria-selected="false">
+          4º Bimestre
         </button>
       </div>
 
@@ -177,12 +177,16 @@
         <!-- Inserido dinamicamente pelo script.js -->
       </div>
 
-      <!-- Estado vazio quando nada é encontrado ou quando clica nos bimestres 1, 2 ou 3 -->
+      <!-- Estado vazio quando nada é encontrado ou quando clica nos bimestres 1 ou 3 -->
       <div class="empty-state hidden" id="empty-state">
         <div class="empty-icon">📁</div>
         <h3 id="empty-title">Nenhuma atividade neste bimestre</h3>
-        <p id="empty-desc">Conforme solicitado, os registros estão concentrados no <strong>4º Bimestre</strong>.</p>
-        <button class="btn btn-primary" id="btn-goto-bim4">Ver Atividades do 4º Bimestre</button>
+        <p id="empty-desc">As atividades cadastradas estão disponíveis no <strong>2º e 4º Bimestres</strong>.</p>
+        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 15px;">
+          <button class="btn btn-primary" id="btn-goto-bim2">Ver 2º Bimestre (8 atividades)</button>
+          <button class="btn btn-primary" id="btn-goto-bim4">Ver 4º Bimestre (5 atividades)</button>
+          <button class="btn btn-secondary" id="btn-goto-all">Ver Todas as Atividades</button>
+        </div>
       </div>
     </section>
   </main>

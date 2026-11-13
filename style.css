@@ -757,6 +757,21 @@ body {
   letter-spacing: 0.04em;
 }
 
+.badge-bim-1 {
+  background-color: #6366f1;
+  color: #ffffff;
+}
+
+.badge-bim-2 {
+  background-color: #059669;
+  color: #ffffff;
+}
+
+.badge-bim-3 {
+  background-color: #d97706;
+  color: #ffffff;
+}
+
 .badge-bim-4 {
   background-color: #0284c7;
   color: #ffffff;

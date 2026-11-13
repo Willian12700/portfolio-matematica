@@ -1,16 +1,112 @@
 /**
  * PORTFÓLIO DE MATEMÁTICA - WILLIAN RANDRIE SILVA DE LIMA
- * 2º ANO B VESPERTINO - PROF. HERBERTO NUNES
- * 4º BIMESTRE: CICLO TRIGONOMÉTRICO, FUNÇÕES TRIGONOMÉTRICAS, RESOLUÇÃO NO QUADRO E PESQUISA
+ * 2º ANO B VESPERTINO - PROF. HERIBERTO NUNES
+ * SESI ESCOLA SÃO GONÇALO DO AMARANTE
+ * 2º E 4º BIMESTRES: MATEMÁTICA FINANCEIRA & TRIGONOMETRIA
  */
 
-// Dados Oficiais do 4º Bimestre (5 atividades separadas e cronológicas)
+// Dados Oficiais do Portfólio (13 atividades completas do 2º e 4º Bimestres)
 const ATIVIDADES_OFICIAIS = [
+  // ==========================================================
+  // 2º BIMESTRE (Matemática Financeira, Porcentagem, Juros)
+  // ==========================================================
+  {
+    id: "ativ-1794588268542",
+    titulo: "Atividade de Número decimal",
+    bimestre: 2,
+    data: "2026-04-10",
+    categoria: "Número Decimal",
+    tipo: "Atividade de Caderno",
+    imagem: "assets/fotos/atividade_numero_decimal_10_04.png",
+    descricao: "Essa atividade que fizemos no dia 10/04/26 nos ajudou a reforçar um pouco a mais do que sabiamos sobre porcentagem, vendo na prática como resolvemos contas de porcentagem de soma, subtração, multiplicação e divisão.",
+    link: ""
+  },
+  {
+    id: "ativ-1794588363714",
+    titulo: "Atividade de desconto",
+    bimestre: 2,
+    data: "2026-04-14",
+    categoria: "Desconto",
+    tipo: "Atividade de Caderno",
+    imagem: "assets/fotos/atividade_desconto_14_04.png",
+    descricao: "Essa atividade que fizemos no dia 14/04/26 nos ajudou a reforçar um pouco a mais do que sabiamos sobre porcentagem, vendo na prática como resolvemos contas de porcentagem de soma, subtração, multiplicação e divisão.",
+    link: ""
+  },
+  {
+    id: "ativ-1794588414908",
+    titulo: "Atividade de Aumentos",
+    bimestre: 2,
+    data: "2026-04-17",
+    categoria: "Aumento",
+    tipo: "Atividade de Caderno",
+    imagem: "assets/fotos/atividade_aumentos_17_04.png",
+    descricao: "Essas atividade que fizemos no dia 17/04/26 nos ajudou a reforçar um pouco a mais do que sabiamos sobre aumentos.",
+    link: ""
+  },
+  {
+    id: "ativ-1794588559434",
+    titulo: "Relatório: a história da matemática financeira",
+    bimestre: 2,
+    data: "2026-04-24",
+    categoria: "A história da matemática financeira",
+    tipo: "Pesquisa / Trabalho Digital",
+    imagem: "assets/fotos/relatorio_historia_matematica_financeira_24_04.png",
+    descricao: "Este relatório explora a Matemática Financeira desde sua origem histórica e grandes pensadores até a aplicação prática de juros (simples e compostos), descontos e aumentos. O trabalho une teoria e exercícios práticos, demonstrando como ferramentas clássicas são essenciais para uma gestão financeira sólida no mercado atual.",
+    link: "https://senairn-my.sharepoint.com/:w:/g/personal/diogo_souza_rn_aluno_sesi_org_br/IQAdlqSE9B9eR6PcoXzaAkxoAf82fjwRofpP53ZsK95Y5Y4?e=54WjgQ"
+  },
+  {
+    id: "ativ-1794588657396",
+    titulo: "Seminário sobre matemática financeira",
+    bimestre: 2,
+    data: "2026-05-08",
+    categoria: "Matemática financeira",
+    tipo: "Resolução no Quadro",
+    imagem: "assets/fotos/seminario_matematica_financeira_08_05.png",
+    descricao: "Realizei uma apresentação sobre matemática financeira, englobando: aumento e desconto, juros simples e composto e dicas pra ajudar no orçamento familiar.",
+    link: "https://matematicafinanceira.netlify.app"
+  },
+  {
+    id: "ativ-1794588463454",
+    titulo: "Atividade de juros simples",
+    bimestre: 2,
+    data: "2026-05-29",
+    categoria: "Juros Simples",
+    tipo: "Atividade de Caderno",
+    imagem: "assets/fotos/atividade_juros_simples_29_05.png",
+    descricao: "Essas atividade que fizemos no dia 29/05/26 nos ajudou a reforçar um pouco a mais do que sabiamos sobre juros simples",
+    link: ""
+  },
+  {
+    id: "ativ-1794588791610",
+    titulo: "Seminário sobre matemática financeira",
+    bimestre: 2,
+    data: "2026-06-05",
+    categoria: "Matemática financeira",
+    tipo: "Atividade em Sala",
+    imagem: "assets/fotos/seminario_matematica_financeira_05_06.png",
+    descricao: "Seminário sobre matemática financeira",
+    link: ""
+  },
+  {
+    id: "ativ-1794588907879",
+    titulo: "Mapa mental de juros compostos",
+    bimestre: 2,
+    data: "2026-06-05",
+    categoria: "Juros compostos",
+    tipo: "Atividade de Caderno",
+    imagem: "assets/fotos/mapa_mental_juros_compostos_05_06.png",
+    descricao: "Mapa mental sobre juros compostos",
+    link: "https://canva.link/jpsdo93yqtri1dw"
+  },
+
+  // ==========================================================
+  // 4º BIMESTRE (Ciclo Trigonométrico, Funções, Pesquisa e Quadro)
+  // ==========================================================
   {
     id: "ativ-1",
     titulo: "Revisão de ciclo trigonométrico",
     bimestre: 4,
-    data: "2026-09-25", // Folha do dia 25/09
+    data: "2026-09-25",
     categoria: "Trigonometria",
     tipo: "Atividade de Fixação no Caderno",
     imagem: "assets/fotos/revisao_ciclo_trigonometrico_25_09.jpg",
@@ -23,7 +119,7 @@ const ATIVIDADES_OFICIAIS = [
     id: "ativ-2",
     titulo: "Atividade de funções trigonométricas",
     bimestre: 4,
-    data: "2026-10-16", // Folha do dia 16/10
+    data: "2026-10-16",
     categoria: "Funções Trigonométricas",
     tipo: "Atividade em Sala no Caderno",
     imagem: "assets/fotos/atividade_funcoes_trigonometricas_16_10.jpg",
@@ -47,7 +143,7 @@ A oscilação do tráfego em gigabytes foi dada por f(x) = 120 · sen(x · π/12
     id: "ativ-3",
     titulo: "Resolução no Quadro: Momento Circular e Arcos de 15.240º",
     bimestre: 4,
-    data: "2026-10-23", // Realizada no dia 23/10
+    data: "2026-10-23",
     categoria: "Trigonometria",
     tipo: "Apresentação e Resolução no Quadro",
     imagem: "assets/fotos/questao3_quadro_23_10.png",
@@ -83,7 +179,7 @@ Resposta correta: Alternativa B (quadrante II).`,
     id: "ativ-4",
     titulo: "Questões de funções trigonométricas",
     bimestre: 4,
-    data: "2026-10-27", // Folha do dia 27/10 (mês 10 corrigido)
+    data: "2026-10-27",
     categoria: "Funções Trigonométricas",
     tipo: "Lista de Exercícios Práticos",
     imagem: "assets/fotos/questoes_funcoes_trigonometricas_27_10.jpg",
@@ -124,13 +220,13 @@ Análise aprofundada de como o ciclo trigonométrico e as equações envolvendo 
 4. Ciência da Computação e Jogos (Game Design): Rotação de objetos 3D, perspectiva gráfica virtual e motores de física (physics engines) para cálculo de colisões e gravidade.
 5. Geografia, Cartografia e Navegação: Fórmulas de trigonometria esférica aplicadas aos sistemas de GPS e traçado de rotas marítimas e aéreas.
 
-📥 Clique no botão abaixo para baixar o PDF completo do trabalho (8 páginas formatadas com referências e normas ABNT).`,
+📥 Clique no botão abaixo para baixar o PDF completo do trabalho (8 páginas formatadas com referências e normas ABNT).`
   }
 ];
 
 // Estado da Aplicação
 let atividades = [];
-let filtroBimestreAtual = '4'; // Foco no 4º Bimestre
+let filtroBimestreAtual = 'all'; // Inicia exibindo todas as atividades (2º e 4º Bimestres)
 let filtroBuscaAtual = '';
 let filtroCategoriaAtual = 'all';
 
@@ -139,7 +235,6 @@ const activitiesGrid = document.getElementById('activities-grid');
 const emptyState = document.getElementById('empty-state');
 const emptyTitle = document.getElementById('empty-title');
 const emptyDesc = document.getElementById('empty-desc');
-const btnGotoBim4 = document.getElementById('btn-goto-bim4');
 const visibleCounter = document.getElementById('visible-counter');
 const currentViewTitle = document.getElementById('current-view-title');
 
@@ -147,6 +242,11 @@ const currentViewTitle = document.getElementById('current-view-title');
 const bimesterTabs = document.querySelectorAll('.tab-btn');
 const searchInput = document.getElementById('search-input');
 const categoryFilter = document.getElementById('category-filter');
+
+// Botões de Ação no Empty State
+const btnGotoBim2 = document.getElementById('btn-goto-bim2');
+const btnGotoBim4 = document.getElementById('btn-goto-bim4');
+const btnGotoAll = document.getElementById('btn-goto-all');
 
 // Estatísticas
 const statTotal = document.getElementById('stat-total');
@@ -197,13 +297,31 @@ const presDotsContainer = document.getElementById('pres-dots-container');
 let slideAtualIndex = 0;
 let slidesList = [];
 
-function abrirApresentacao() {
-  slidesList = atividades
-    .filter(a => String(a.bimestre) === '4')
-    .sort((a, b) => new Date(a.data) - new Date(b.data));
+/* ==========================================================
+   FUNÇÃO AUXILIAR DE ROTULAGEM DE LINKS
+   ========================================================== */
+function obterRotuloLink(link) {
+  if (!link) return '';
+  if (link.endsWith('.pdf')) return 'Baixar PDF da Pesquisa';
+  if (link.includes('canva')) return 'Ver Mapa Mental no Canva';
+  if (link.includes('sharepoint') || link.includes('docs.google')) return 'Acessar Relatório Completo';
+  if (link.includes('netlify')) return 'Acessar Site do Seminário';
+  return 'Acessar Link do Trabalho';
+}
 
-  if (slidesList.length === 0) {
-    slidesList = [...atividades];
+/* ==========================================================
+   MODO APRESENTAÇÃO DE SLIDES (TELA CHEIA)
+   ========================================================== */
+function abrirApresentacao() {
+  if (filtroBimestreAtual === 'all') {
+    slidesList = [...atividades].sort((a, b) => new Date(a.data) - new Date(b.data));
+  } else {
+    slidesList = atividades
+      .filter(a => String(a.bimestre) === String(filtroBimestreAtual))
+      .sort((a, b) => new Date(a.data) - new Date(b.data));
+    if (slidesList.length === 0) {
+      slidesList = [...atividades].sort((a, b) => new Date(a.data) - new Date(b.data));
+    }
   }
 
   slideAtualIndex = 0;
@@ -260,6 +378,7 @@ function renderizarSlide() {
 
   const isQuadro = ativ.tipo && ativ.tipo.includes('Quadro');
   const badgeClass = isQuadro ? 'badge-type highlight-quadro-badge' : 'badge-type';
+  const labelLink = obterRotuloLink(ativ.link);
 
   presSlideContent.innerHTML = `
     <div class="slide-image-col">
@@ -269,22 +388,22 @@ function renderizarSlide() {
     <div class="slide-info-col">
       <div class="slide-meta-row">
         <span class="slide-date-pill">📅 ${formatarData(ativ.data)}</span>
-        <span class="badge badge-bim-4">${ativ.bimestre}º Bimestre</span>
+        <span class="badge badge-bim-${ativ.bimestre}">${ativ.bimestre}º Bimestre</span>
         <span class="badge ${badgeClass}">${ativ.tipo || 'Atividade'}</span>
       </div>
 
       <h2 class="slide-title">${ativ.titulo}</h2>
 
       <div class="slide-description-card">
-        <span class="slide-desc-label">Explicação & Desenvolvimento Matemático:</span>
+        <span class="slide-desc-label">Explicação & Conteúdo:</span>
         <p class="slide-desc-text">${ativ.descricao}</p>
       </div>
 
       <div class="slide-action-box">
         ${ativ.link ? `
-          <a href="${ativ.link}" ${ativ.link.endsWith('.pdf') ? `download="${ativ.downloadNome || 'pesquisa_trigonometria.pdf'}"` : 'target="_blank" rel="noopener noreferrer"'} class="btn-icon-link ${ativ.link.endsWith('.pdf') ? 'btn-download-pdf' : ''}">
+          <a href="${ativ.link}" ${ativ.link.endsWith('.pdf') ? `download="${ativ.downloadNome || 'trabalho.pdf'}"` : 'target="_blank" rel="noopener noreferrer"'} class="btn-icon-link ${ativ.link.endsWith('.pdf') ? 'btn-download-pdf' : ''}">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-            ${ativ.link.endsWith('.pdf') ? 'Baixar PDF da Pesquisa' : 'Acessar Link do Trabalho'}
+            ${labelLink}
           </a>
         ` : `
           <span style="font-size: 0.85rem; color: #94a3b8; font-weight: 600;">
@@ -296,17 +415,28 @@ function renderizarSlide() {
   `;
 }
 
+/* ==========================================================
+   MODO NOTURNO / CLARO
+   ========================================================== */
 function inicializarTema() {
   const temaSalvo = localStorage.getItem('math_portfolio_theme');
   if (temaSalvo === 'dark') {
     aplicarTemaEscuro(true);
-  } else {
+  } else if (temaSalvo === 'light') {
     aplicarTemaEscuro(false);
+  } else {
+    const prefereDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    aplicarTemaEscuro(prefereDark);
   }
 }
 
-function aplicarTemaEscuro(isDark) {
-  if (isDark) {
+function alternarTema() {
+  const isDark = document.body.classList.contains('dark-theme');
+  aplicarTemaEscuro(!isDark);
+}
+
+function aplicarTemaEscuro(ativar) {
+  if (ativar) {
     document.body.classList.add('dark-theme');
     if (themeIcon) themeIcon.textContent = '☀️';
     if (themeText) themeText.textContent = 'Modo Claro';
@@ -319,11 +449,6 @@ function aplicarTemaEscuro(isDark) {
   }
 }
 
-function alternarTema() {
-  const isDark = document.body.classList.contains('dark-theme');
-  aplicarTemaEscuro(!isDark);
-}
-
 /* ==========================================================
    INICIALIZAÇÃO & PERSISTÊNCIA LOCAL
    ========================================================== */
@@ -331,6 +456,7 @@ function inicializarApp() {
   inicializarTema();
   carregarDadosEstudante();
   carregarAtividades();
+  popularFiltroCategorias();
   configurarEventos();
   renderizar();
 }
@@ -339,7 +465,8 @@ function carregarDadosEstudante() {
   const alunoPadrao = {
     aluno: "Willian Randrie Silva de Lima",
     turma: "2º ano B Vespertino",
-    professor: "Herberto Nunes",
+    escola: "Sesi Escola São Gonçalo do Amarante",
+    professor: "Heriberto Nunes",
     ano: "2026"
   };
 
@@ -349,13 +476,12 @@ function carregarDadosEstudante() {
   metaTeacher.textContent = dados.professor;
   metaYear.textContent = dados.ano;
 
-  [metaStudent, metaGrade, metaTeacher, metaYear].forEach(el => {
-    el.style.cursor = 'pointer';
-    el.title = 'Clique para alterar este dado';
-    el.addEventListener('click', () => {
-      const valorAtual = el.textContent;
-      const novoValor = prompt(`Alterar dado:`, valorAtual);
-      if (novoValor && novoValor.trim() !== '') {
+  // Permitir edição rápida dando duplo clique nos dados do cabeçalho
+  [metaStudent, metaGrade, metaTeacher].forEach(el => {
+    el.title = "Clique duas vezes para editar seu dado pessoal";
+    el.addEventListener('dblclick', () => {
+      const novoValor = prompt("Editar informação:", el.textContent);
+      if (novoValor && novoValor.trim() !== "") {
         el.textContent = novoValor.trim();
         salvarDadosEstudante();
       }
@@ -367,6 +493,7 @@ function salvarDadosEstudante() {
   const dados = {
     aluno: metaStudent.textContent,
     turma: metaGrade.textContent,
+    escola: document.getElementById('meta-school').textContent,
     professor: metaTeacher.textContent,
     ano: metaYear.textContent
   };
@@ -374,22 +501,48 @@ function salvarDadosEstudante() {
 }
 
 function carregarAtividades() {
-  const salvas = localStorage.getItem('math_portfolio_activities_v7');
+  const salvas = localStorage.getItem('math_portfolio_activities_v8');
   if (salvas) {
     try {
       atividades = JSON.parse(salvas);
+      // Garantir que todas as atividades oficiais estejam sincronizadas
+      const idsExistentes = new Set(atividades.map(a => a.id));
+      for (const oficial of ATIVIDADES_OFICIAIS) {
+        if (!idsExistentes.has(oficial.id)) {
+          atividades.push(oficial);
+        }
+      }
+      return;
     } catch (e) {
-      atividades = [...ATIVIDADES_OFICIAIS];
+      console.warn("Erro ao ler localStorage:", e);
     }
-  } else {
-    // Carrega a lista com as 5 atividades oficiais e caminhos em assets
-    atividades = [...ATIVIDADES_OFICIAIS];
-    salvarAtividadesNoStorage();
   }
+  // Carrega a lista completa oficial (13 atividades)
+  atividades = [...ATIVIDADES_OFICIAIS];
+  salvarAtividadesNoStorage();
 }
 
 function salvarAtividadesNoStorage() {
-  localStorage.setItem('math_portfolio_activities_v7', JSON.stringify(atividades));
+  localStorage.setItem('math_portfolio_activities_v8', JSON.stringify(atividades));
+}
+
+function popularFiltroCategorias() {
+  if (!categoryFilter) return;
+  const cats = Array.from(new Set(atividades.map(a => a.categoria).filter(Boolean))).sort();
+  const valorAtual = categoryFilter.value;
+  categoryFilter.innerHTML = '<option value="all">Todas as Categorias</option>';
+  cats.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c;
+    categoryFilter.appendChild(opt);
+  });
+  if (cats.includes(valorAtual)) {
+    categoryFilter.value = valorAtual;
+  } else {
+    categoryFilter.value = 'all';
+    filtroCategoriaAtual = 'all';
+  }
 }
 
 /* ==========================================================
@@ -432,9 +585,11 @@ function renderizar() {
 
   // Atualiza título da seção
   if (filtroBimestreAtual === 'all') {
-    currentViewTitle.textContent = 'Todas as Atividades Registradas';
+    currentViewTitle.textContent = 'Todas as Atividades Registradas (2º e 4º Bimestres)';
+  } else if (filtroBimestreAtual === '2') {
+    currentViewTitle.textContent = '2º Bimestre — Atividades Registradas (Matemática Financeira)';
   } else if (filtroBimestreAtual === '4') {
-    currentViewTitle.textContent = '4º Bimestre — Atividades Registradas';
+    currentViewTitle.textContent = '4º Bimestre — Atividades Registradas (Trigonometria)';
   } else {
     currentViewTitle.textContent = `${filtroBimestreAtual}º Bimestre — Sem atividades registradas`;
   }
@@ -447,14 +602,12 @@ function renderizar() {
   if (filtradas.length === 0) {
     emptyState.classList.remove('hidden');
 
-    if (['1', '2', '3'].includes(filtroBimestreAtual)) {
+    if (['1', '3'].includes(filtroBimestreAtual)) {
       emptyTitle.textContent = `Nenhuma atividade no ${filtroBimestreAtual}º Bimestre`;
-      emptyDesc.innerHTML = `O portfólio deste ano letivo está focado nas atividades do <strong>4º Bimestre</strong>.`;
-      btnGotoBim4.classList.remove('hidden');
+      emptyDesc.innerHTML = `As atividades registradas estão disponíveis no <strong>2º Bimestre (8 atividades)</strong> e no <strong>4º Bimestre (5 atividades)</strong>.`;
     } else {
       emptyTitle.textContent = `Nenhum resultado para a busca`;
       emptyDesc.textContent = `Tente buscar por outro termo ou limpar os filtros de categoria.`;
-      btnGotoBim4.classList.add('hidden');
     }
     return;
   } else {
@@ -471,12 +624,13 @@ function renderizar() {
     // Destaque visual caso seja a resolução no quadro
     const isQuadro = ativ.tipo && ativ.tipo.includes('Quadro');
     const badgeTypeClass = isQuadro ? 'badge-type highlight-quadro-badge' : 'badge-type';
+    const labelLink = obterRotuloLink(ativ.link);
 
     card.innerHTML = `
       <div class="card-image-wrap" title="Clique para abrir a imagem inteira sem cortes">
         <img src="${ativ.imagem}" alt="${ativ.titulo}" class="card-img-element" loading="lazy">
         <div class="card-badges">
-          <span class="badge badge-bim-4">${ativ.bimestre}º Bimestre</span>
+          <span class="badge badge-bim-${ativ.bimestre}">${ativ.bimestre}º Bimestre</span>
           <span class="badge ${badgeTypeClass}">${ativ.tipo || 'Atividade'}</span>
         </div>
         <div class="image-overlay-hint">
@@ -501,9 +655,9 @@ function renderizar() {
         <div class="card-footer">
           <div class="card-actions-left">
             ${ativ.link ? `
-              <a href="${ativ.link}" ${ativ.link.endsWith('.pdf') ? `download="${ativ.downloadNome || 'pesquisa_trigonometria.pdf'}"` : 'target="_blank" rel="noopener noreferrer"'} class="btn-icon-link ${ativ.link.endsWith('.pdf') ? 'btn-download-pdf' : ''}">
+              <a href="${ativ.link}" ${ativ.link.endsWith('.pdf') ? `download="${ativ.downloadNome || 'trabalho.pdf'}"` : 'target="_blank" rel="noopener noreferrer"'} class="btn-icon-link ${ativ.link.endsWith('.pdf') ? 'btn-download-pdf' : ''}">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                ${ativ.link.endsWith('.pdf') ? 'Baixar PDF da Pesquisa' : 'Acessar Link do Trabalho'}
+                ${labelLink}
               </a>
             ` : `
               <span style="font-size: 0.8rem; color: #64748b; font-weight: 600;">
@@ -552,12 +706,13 @@ function abrirLightbox(ativ) {
 
   if (ativ.link && ativ.link.trim() !== '') {
     lightboxLink.href = ativ.link;
+    const labelLink = obterRotuloLink(ativ.link);
     if (ativ.link.endsWith('.pdf')) {
-      lightboxLink.setAttribute('download', ativ.downloadNome || 'pesquisa_trigonometria.pdf');
+      lightboxLink.setAttribute('download', ativ.downloadNome || 'trabalho.pdf');
       lightboxLink.removeAttribute('target');
       lightboxLink.innerHTML = `
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-        Baixar PDF da Pesquisa
+        ${labelLink}
       `;
     } else {
       lightboxLink.removeAttribute('download');
@@ -565,7 +720,7 @@ function abrirLightbox(ativ) {
       lightboxLink.setAttribute('rel', 'noopener noreferrer');
       lightboxLink.innerHTML = `
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-        Acessar Link do Trabalho
+        ${labelLink}
       `;
     }
     lightboxLink.classList.remove('hidden');
@@ -592,7 +747,7 @@ function abrirModalFormulario() {
   
   const hoje = new Date().toISOString().split('T')[0];
   document.getElementById('form-date').value = hoje;
-  document.getElementById('form-bimester').value = "4";
+  document.getElementById('form-bimester').value = filtroBimestreAtual === 'all' ? '2' : filtroBimestreAtual;
 
   modal.classList.remove('hidden');
 }
@@ -654,28 +809,28 @@ activityForm.addEventListener('submit', (e) => {
 
   atividades.push(novaAtividade);
   salvarAtividadesNoStorage();
+  popularFiltroCategorias();
   
   fecharModalFormulario();
-  imagemBase64Temp = '';
   renderizar();
-
-  alert(`Atividade "${titulo}" adicionada com sucesso ao seu portfólio!`);
 });
 
 /* Exclusão de Atividade */
 function excluirAtividade(id, titulo) {
-  const confirmacao = confirm(`Deseja realmente remover a atividade:\n"${titulo}"?`);
+  const confirmacao = confirm(`Deseja realmente excluir a atividade "${titulo}"?`);
   if (confirmacao) {
     atividades = atividades.filter(a => a.id !== id);
     salvarAtividadesNoStorage();
+    popularFiltroCategorias();
     renderizar();
   }
 }
 
 /* ==========================================================
-   CONFIGURAÇÃO DE EVENTOS E FILTROS
+   CONFIGURAÇÃO DE EVENTOS
    ========================================================== */
 function configurarEventos() {
+  // Troca de Bimestres (Abas)
   bimesterTabs.forEach(tab => {
     tab.addEventListener('click', () => {
       bimesterTabs.forEach(t => {
@@ -690,9 +845,9 @@ function configurarEventos() {
     });
   });
 
-  btnGotoBim4.addEventListener('click', () => {
+  function ativarAbaBimestre(bim) {
     bimesterTabs.forEach(t => {
-      if (t.dataset.bimester === '4') {
+      if (t.dataset.bimester === bim) {
         t.classList.add('active');
         t.setAttribute('aria-selected', 'true');
       } else {
@@ -700,9 +855,13 @@ function configurarEventos() {
         t.setAttribute('aria-selected', 'false');
       }
     });
-    filtroBimestreAtual = '4';
+    filtroBimestreAtual = bim;
     renderizar();
-  });
+  }
+
+  if (btnGotoBim2) btnGotoBim2.addEventListener('click', () => ativarAbaBimestre('2'));
+  if (btnGotoBim4) btnGotoBim4.addEventListener('click', () => ativarAbaBimestre('4'));
+  if (btnGotoAll) btnGotoAll.addEventListener('click', () => ativarAbaBimestre('all'));
 
   searchInput.addEventListener('input', (e) => {
     filtroBuscaAtual = e.target.value.trim();
