@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Matemática | Willian Randrie - 2º B Vespertino</title>
+  <meta name="description" content="Portfólio escolar de matemática com fotos das atividades do 4º bimestre, explicações detalhadas, datas e trabalhos do aluno Willian Randrie.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fundo sutil com padrão matemático de papel milimetrado / plano cartesiano -->
+  <div class="math-bg-grid" aria-hidden="true"></div>
+
+  <!-- Cabeçalho Principal do Estudante -->
+  <header class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-profile">
+        <div class="avatar-badge">
+          <span class="avatar-icon">📐</span>
+          <span class="avatar-formula">sen² + cos² = 1</span>
+        </div>
+        <div class="profile-info">
+          <div class="badge-cluster">
+            <span class="subject-tag">Matemática • Ensino Médio</span>
+            <span class="bimester-spotlight-tag">Foco: 4º Bimestre</span>
+          </div>
+          <h1 id="user-name">Portfólio de Matemática</h1>
+          <p class="hero-desc">
+            Registro e documentação pedagógica das atividades de sala, resoluções no quadro, exercícios do caderno e pesquisa sobre o ciclo trigonométrico e suas aplicações.
+          </p>
+          <div class="meta-tags">
+            <div class="meta-item">
+              <span class="meta-icon">👤</span>
+              <div>
+                <small>Aluno</small>
+                <strong id="meta-student">Willian Randrie Silva de Lima</strong>
+              </div>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">🏛️</span>
+              <div>
+                <small>Escola</small>
+                <strong id="meta-school">Sesi Escola São Gonçalo do Amarante</strong>
+              </div>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">🏫</span>
+              <div>
+                <small>Turma / Turno</small>
+                <strong id="meta-grade">2º ano B Vespertino</strong>
+              </div>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">👨‍🏫</span>
+              <div>
+                <small>Professor Orientador</small>
+                <strong id="meta-teacher">Heriberto Nunes</strong>
+              </div>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">📅</span>
+              <div>
+                <small>Ano Letivo</small>
+                <strong id="meta-year">2026</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ações rápidas -->
+      <div class="hero-actions">
+        <button class="btn btn-presentation" id="btn-presentation-mode" title="Apresentar atividades em tela cheia (estilo slides)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          Apresentar Slides
+        </button>
+        <button class="btn btn-secondary btn-theme-toggle" id="btn-theme-toggle" title="Alternar entre modo claro e noturno">
+          <span id="theme-icon">🌙</span>
+          <span id="theme-text">Modo Noturno</span>
+        </button>
+        <button class="btn btn-primary" id="btn-open-modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          Adicionar Atividade
+        </button>
+        <button class="btn btn-secondary" onclick="window.print()" title="Gerar versão para imprimir ou salvar em PDF">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Imprimir / PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Métricas Rápidas / Resumo Geral -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon icon-blue">📋</div>
+        <div class="stat-content">
+          <span class="stat-value" id="stat-total">5</span>
+          <span class="stat-label">Atividades do 4º Bimestre</span>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon icon-purple">🎯</div>
+        <div class="stat-content">
+          <span class="stat-value">100%</span>
+          <span class="stat-label">Ciclo Trigonométrico & Funções</span>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon icon-emerald">🔗</div>
+        <div class="stat-content">
+          <span class="stat-value" id="stat-links">1</span>
+          <span class="stat-label">Pesquisa com Link Online</span>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon icon-amber">📸</div>
+        <div class="stat-content">
+          <span class="stat-value" id="stat-photos">5</span>
+          <span class="stat-label">Fotos & Resoluções</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Painel de Filtros e Busca -->
+  <main class="container main-content">
+    <section class="filters-container">
+      <div class="bimester-tabs" role="tablist">
+        <button class="tab-btn" data-bimester="all" role="tab" aria-selected="false">
+          Todos os Bimestres
+        </button>
+        <button class="tab-btn" data-bimester="1" role="tab" aria-selected="false">
+          1º Bimestre
+        </button>
+        <button class="tab-btn" data-bimester="2" role="tab" aria-selected="false">
+          2º Bimestre
+        </button>
+        <button class="tab-btn" data-bimester="3" role="tab" aria-selected="false">
+          3º Bimestre
+        </button>
+        <button class="tab-btn active" data-bimester="4" role="tab" aria-selected="true">
+          4º Bimestre (Atual)
+        </button>
+      </div>
+
+      <div class="search-and-category">
+        <div class="search-box">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="search-input" placeholder="Buscar por conteúdo (ex: ciclo trigonométrico, eletrocardiograma, fita, quadro)...">
+        </div>
+        <select id="category-filter" class="custom-select">
+          <option value="all">Todas as Categorias</option>
+          <option value="Trigonometria">Trigonometria</option>
+          <option value="Funções Trigonométricas">Funções Trigonométricas</option>
+          <option value="Pesquisa & Aplicações">Pesquisa & Aplicações</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Lista de Atividades (Grid) -->
+    <section class="activities-section">
+      <div class="section-header">
+        <div>
+          <h2 id="current-view-title">4º Bimestre — Atividades Registradas</h2>
+          <p class="section-subtitle">Fotos completas das folhas de caderno, data de realização e explicações pedagógicas.</p>
+        </div>
+        <span class="counter-badge" id="visible-counter">Mostrando 5 atividades</span>
+      </div>
+
+      <!-- Container dinâmico das atividades -->
+      <div class="activities-grid" id="activities-grid">
+        <!-- Inserido dinamicamente pelo script.js -->
+      </div>
+
+      <!-- Estado vazio quando nada é encontrado ou quando clica nos bimestres 1, 2 ou 3 -->
+      <div class="empty-state hidden" id="empty-state">
+        <div class="empty-icon">📁</div>
+        <h3 id="empty-title">Nenhuma atividade neste bimestre</h3>
+        <p id="empty-desc">Conforme solicitado, os registros estão concentrados no <strong>4º Bimestre</strong>.</p>
+        <button class="btn btn-primary" id="btn-goto-bim4">Ver Atividades do 4º Bimestre</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal para Adicionar / Editar Atividade -->
+  <div class="modal-overlay hidden" id="activity-modal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">Nova Atividade de Matemática</h3>
+        <button class="close-btn" id="btn-close-modal" aria-label="Fechar modal">&times;</button>
+      </div>
+      <form id="activity-form" class="modal-body">
+        <div class="form-group">
+          <label for="form-title">Título da Atividade *</label>
+          <input type="text" id="form-title" placeholder="Ex: Revisão de ciclo trigonométrico" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="form-bimester">Bimestre *</label>
+            <select id="form-bimester" required>
+              <option value="4" selected>4º Bimestre</option>
+              <option value="1">1º Bimestre</option>
+              <option value="2">2º Bimestre</option>
+              <option value="3">3º Bimestre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-date">Data da Realização *</label>
+            <input type="date" id="form-date" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="form-category">Conteúdo / Categoria *</label>
+            <input type="text" id="form-category" list="category-options" placeholder="Ex: Funções Trigonométricas" required>
+            <datalist id="category-options">
+              <option value="Trigonometria">
+              <option value="Funções Trigonométricas">
+              <option value="Ciclo Trigonométrico">
+              <option value="Pesquisa & Aplicações">
+              <option value="Geometria">
+            </datalist>
+          </div>
+          <div class="form-group">
+            <label for="form-type">Tipo de Trabalho</label>
+            <select id="form-type">
+              <option value="Atividade de Caderno">Atividade de Caderno</option>
+              <option value="Atividade em Sala">Atividade em Sala</option>
+              <option value="Resolução no Quadro">Resolução no Quadro</option>
+              <option value="Pesquisa / Trabalho Digital">Pesquisa / Trabalho Digital</option>
+              <option value="Lista de Exercícios">Lista de Exercícios</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="form-description">O que foi feito nessa atividade? (Explicação) *</label>
+          <textarea id="form-description" rows="4" placeholder="Descreva o que foi solicitado, quais fórmulas foram usadas e os resultados obtidos..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="form-link">Link do Trabalho (Opcional - Google Docs, Word Cloud, Drive, etc.)</label>
+          <input type="url" id="form-link" placeholder="https://word.cloud.microsoft/ ou outro link">
+        </div>
+
+        <div class="form-group">
+          <label for="form-image">Foto da Folha / Trabalho (Aparecerá completa sem cortar)</label>
+          <input type="file" id="form-image" accept="image/*">
+          <small class="form-hint">Ou se preferir cole o link da imagem:</small>
+          <input type="url" id="form-image-url" placeholder="https://exemplo.com/foto.jpg" style="margin-top: 6px;">
+        </div>
+
+        <!-- Preview da Imagem Selecionada -->
+        <div class="image-preview-box hidden" id="image-preview-wrapper">
+          <span>Prévia da foto:</span>
+          <img id="form-image-preview" src="" alt="Prévia da foto selecionada">
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="btn-cancel-modal">Cancelar</button>
+          <button type="submit" class="btn btn-primary">Salvar no Portfólio</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Lightbox (Visualizador de Fotos em Tela Cheia com Imagem Completa) -->
+  <div class="lightbox-overlay hidden" id="lightbox" role="dialog" aria-modal="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Fechar visualização">&times;</button>
+      
+      <div class="lightbox-image-container">
+        <img id="lightbox-img" src="" alt="Foto da atividade em alta resolução">
+      </div>
+
+      <div class="lightbox-gallery-nav hidden" id="lightbox-gallery-nav">
+        <!-- Botões para alternar entre caderno e questão do quadro quando houver -->
+      </div>
+
+      <div class="lightbox-info">
+        <div class="lightbox-header-row">
+          <h4 id="lightbox-title">Título da Atividade</h4>
+          <span id="lightbox-meta" class="meta-pill">4º Bimestre • Data</span>
+        </div>
+        <p id="lightbox-desc">Descrição completa da atividade.</p>
+        <div class="lightbox-actions">
+          <a id="lightbox-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            Acessar Link do Trabalho
+          </a>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="fecharLightbox()">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Apresentação em Tela Cheia (Slideshow Executivo) -->
+  <div class="presentation-overlay hidden" id="presentation-overlay" role="dialog" aria-modal="true">
+    <div class="presentation-header">
+      <div class="presentation-title-info">
+        <span class="pres-badge">▶️ Modo Apresentação</span>
+        <span class="pres-student">Willian Randrie &bull; 4º Bimestre &bull; Prof. Heriberto Nunes</span>
+      </div>
+      <div class="presentation-top-actions">
+        <span class="pres-slide-counter" id="pres-counter">Slide 1 de 5</span>
+        <button class="pres-close-btn" id="btn-close-presentation" aria-label="Sair da apresentação" title="Sair da Apresentação (ESC)">&times;</button>
+      </div>
+    </div>
+
+    <div class="presentation-body">
+      <!-- Botão Anterior -->
+      <button class="pres-nav-arrow pres-prev" id="btn-pres-prev" aria-label="Slide anterior" title="Slide Anterior (Seta Esquerda)">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+
+      <!-- Conteúdo do Slide -->
+      <div class="presentation-slide-card" id="presentation-slide-content">
+        <!-- Inserido dinamicamente pelo script.js -->
+      </div>
+
+      <!-- Botão Próximo -->
+      <button class="pres-nav-arrow pres-next" id="btn-pres-next" aria-label="Próximo slide" title="Próximo Slide (Seta Direita)">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+
+    <!-- Barra de Controle Inferior -->
+    <div class="presentation-footer">
+      <div class="pres-keyboard-hint">
+        <span>Teclado: use as setas <strong>←</strong> e <strong>→</strong> ou barra de <strong>Espaço</strong> para navegar | <strong>ESC</strong> para sair</span>
+      </div>
+      <div class="pres-dots" id="pres-dots-container">
+        <!-- Bolinhas de navegação inseridas dinamicamente -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="portfolio-footer">
+    <div class="container footer-content">
+      <p><strong>Portfólio de Matemática — 4º Bimestre</strong> &bull; Aluno: Willian Randrie Silva de Lima &bull; Prof. Herberto Nunes</p>
+      <p class="subtext">2º ano B Vespertino &bull; Todas as fotos e folhas de atividades documentadas com preservação integral.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
